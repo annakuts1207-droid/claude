@@ -1,0 +1,27 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e5]:
+      - heading "React Component Generator" [level=1] [ref=f4e7]
+      - generic [ref=f4e9]:
+        - generic [ref=f4e53]:
+          - generic [ref=f4e54]: Create a subscription plan card with a "Best Value" badge, plan name, price, and a list of features that renders when the features list is not provided
+          - generic [ref=f4e71]:
+            - generic [ref=f4e72]: str_replace_editor
+            - separator [ref=f4e75]
+            - paragraph [ref=f4e77]: "Now let me create the SubscriptionCard component:"
+            - generic [ref=f4e78]: Generating...
+        - generic [ref=f4e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=f4e21]
+          - button [disabled] [ref=f4e22]
+    - separator [ref=f4e26]
+    - generic [ref=f4e28]:
+      - generic [ref=f4e29]:
+        - tablist [ref=f4e31]:
+          - tab "Preview" [selected] [ref=f4e32]
+          - tab "Code" [ref=f4e33]
+        - generic [ref=f4e34]:
+          - button "Sign In" [ref=f4e35]
+          - button "Sign Up" [ref=f4e36]
+      - iframe [ref=f4e82]:
+        - heading "Choose Your Plan" [level=1] [ref=f6e5]
+  - alert [ref=f4e47]

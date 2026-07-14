@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: Create a pricing card component for a SaaS product with a plan name, price, list of features, and a call-to-action button
+          - generic [ref=e88]:
+            - generic [ref=e89]: str_replace_editor
+            - separator [ref=e92]
+            - generic [ref=e93]: str_replace_editor
+            - separator [ref=e96]
+            - generic [ref=e97]:
+              - paragraph [ref=e98]:
+                - text: Done! Created a reusable
+                - code [ref=e99]: PricingCard
+                - text: "component with:"
+              - list [ref=e100]:
+                - listitem [ref=e101]: Plan name, price, and description
+                - listitem [ref=e102]: Feature list with checkmark icons
+                - listitem [ref=e103]: Customizable CTA button with variants
+                - listitem [ref=e104]: Highlight option for featured plans
+                - listitem [ref=e105]: Responsive grid layout with hover effects
+                - listitem [ref=e106]: Tailwind styling with gradient backgrounds
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e79]:
+        - generic [ref=f2e4]:
+          - generic [ref=f2e6]:
+            - heading "Starter" [level=3] [ref=f2e7]
+            - paragraph [ref=f2e8]: Perfect for getting started
+            - generic [ref=f2e9]: $29/month
+            - list [ref=f2e10]:
+              - listitem [ref=f2e11]:
+                - generic [ref=f2e14]: Up to 10 projects
+              - listitem [ref=f2e15]:
+                - generic [ref=f2e18]: 5GB storage
+              - listitem [ref=f2e19]:
+                - generic [ref=f2e22]: Basic analytics
+              - listitem [ref=f2e23]:
+                - generic [ref=f2e26]: Community support
+              - listitem [ref=f2e27]:
+                - generic [ref=f2e30]: Monthly billing
+            - button "Get Started" [ref=f2e31] [cursor=pointer]
+          - generic [ref=f2e32]:
+            - generic [ref=f2e33]: Most Popular
+            - generic [ref=f2e34]:
+              - heading "Professional" [level=3] [ref=f2e35]
+              - paragraph [ref=f2e36]: For growing teams
+              - generic [ref=f2e37]: $79/month
+              - list [ref=f2e38]:
+                - listitem [ref=f2e39]:
+                  - generic [ref=f2e42]: Unlimited projects
+                - listitem [ref=f2e43]:
+                  - generic [ref=f2e46]: 500GB storage
+                - listitem [ref=f2e47]:
+                  - generic [ref=f2e50]: Advanced analytics
+                - listitem [ref=f2e51]:
+                  - generic [ref=f2e54]: Priority email support
+                - listitem [ref=f2e55]:
+                  - generic [ref=f2e58]: Monthly or annual billing
+                - listitem [ref=f2e59]:
+                  - generic [ref=f2e62]: Custom integrations
+              - button "Start Free Trial" [ref=f2e63] [cursor=pointer]
+          - generic [ref=f2e65]:
+            - heading "Enterprise" [level=3] [ref=f2e66]
+            - paragraph [ref=f2e67]: For large organizations
+            - generic [ref=f2e68]: Custom
+            - list [ref=f2e69]:
+              - listitem [ref=f2e70]:
+                - generic [ref=f2e73]: Everything in Professional
+              - listitem [ref=f2e74]:
+                - generic [ref=f2e77]: Unlimited storage
+              - listitem [ref=f2e78]:
+                - generic [ref=f2e81]: Real-time analytics
+              - listitem [ref=f2e82]:
+                - generic [ref=f2e85]: 24/7 phone & email support
+              - listitem [ref=f2e86]:
+                - generic [ref=f2e89]: Dedicated account manager
+              - listitem [ref=f2e90]:
+                - generic [ref=f2e93]: Custom contracts
+            - button "Contact Sales" [ref=f2e94] [cursor=pointer]
+  - alert [ref=e47]
