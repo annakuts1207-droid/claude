@@ -64,7 +64,7 @@ jobs:
             }
           additional_permissions: |
             actions: read
-          allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,mcp__playwright__browser_fill,mcp__playwright__browser_select,mcp__playwright__browser_wait_for_selector,mcp__playwright__browser_wait_for_navigation,mcp__playwright__browser_screenshot,vitest__run,vitest__run_test,vitest__run_test_file,vitest__run_test_suite,vitest__run_test_case"
+          allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,mcp__playwright__browser_fill,mcp__playwright__browser_select,mcp__playwright__browser_wait_for_selector,mcp__playwright__browser_wait_for_navigation,mcp__playwright__browser_screenshot,vitest__run,vitest__run_test,vitest__run_test_file,vitest__run_test_suite,vitest__run_test_case,Bash(npx vitest run:*) "
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
