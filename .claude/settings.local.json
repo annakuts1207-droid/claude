@@ -1,8 +1,23 @@
 {
   "permissions": {
-    "allow": [
-      "mcp__playwright",
-      "WebSearch"
+    "allow": ["mcp__playwright", "WebSearch"]
+  },
+  "statusLine": {
+    "type": "command",
+     "command": "jq -r '\"[\\(.model.display_name)] \\(.context_window.used_percentage)% context\"'"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // .tool_response.filePath // empty'); if [ -z \"$f\" ] || [ ! -f \"$f\" ]; then exit 0; fi; case \"$f\" in \"$CLAUDE_PROJECT_DIR\"/*) ;; *) exit 0 ;; esac; case \"$f\" in *.ts|*.tsx|*.js|*.jsx|*.mjs|*.cjs|*.json|*.css|*.scss|*.md) bin=\"$CLAUDE_PROJECT_DIR/node_modules/.bin/prettier\"; [ -x \"$bin\" ] && \"$bin\" --write \"$f\" ;; *.go) command -v gofmt >/dev/null 2>&1 && gofmt -w \"$f\" ;; esac",
+            "timeout": 30
+          }
+        ]
+      }
     ]
   }
 }
